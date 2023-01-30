@@ -49,6 +49,13 @@ font-family: 'Shrikhand', cursive;*/
   /* FONTS  */
 @font-face 
   {
+  font-family: Black Mango;
+  src: url(/fonts/black-mango-medium.ttf);
+  }
+
+
+@font-face 
+  {
   font-family: Cyrene;
   src: url(/fonts/cyrene.otf);
   }
