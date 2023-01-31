@@ -272,7 +272,7 @@ font-family: 'Shrikhand', cursive;*/
 .carousel-subheading-font 
   {
   font-family: 'Brushwell';
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   }  
 
 .carousel-text-color 
@@ -986,7 +986,7 @@ footer {
 
    /* --------CAROUSEL-------- */
    .radius-leaf {border-radius: 100px 0px 100px 0px;}
-   .carousel-symbols-color {font-size: 1.5rem;}
+   .carousel-symbols-color {font-size: 1rem;}
    .carousel-subheading-font {font-size: 1.5rem;}
 
    /* -----------MEDIA-KIT---------- */
