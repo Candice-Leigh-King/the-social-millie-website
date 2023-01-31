@@ -694,7 +694,7 @@ header
     transform: translateX(-50%) translateY(-50%) rotate(-90deg);
     position: absolute;
     white-space: nowrap;
-    top: 50%;
+    top: 30%;
     left: 50%;
 }
 
