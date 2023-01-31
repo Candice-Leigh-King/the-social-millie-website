@@ -6,7 +6,7 @@ colors:
   hamburger-color: '#ffffff'
   background-color: '#98b6b6'
   textarea-background-color: '#b4dadb'
-  border-color: '#ffffff'
+  border-color: rgba(0, 0, 0, 0)
   link-color: '#2f3031'
   hover-link-color: '#ffffff'
   exit-color: '#2f3031'
