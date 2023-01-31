@@ -17,7 +17,7 @@ border-radius:
   bottom-left-corner: 0%
   bottom-right-corner: 0%
 fonts:
-  link-font: Shrikhand, cursive;
+  link-font: Black Mango
 social-link-colors:
   icon-color: '#859f9f'
   background-color: '#f2f1f7'
