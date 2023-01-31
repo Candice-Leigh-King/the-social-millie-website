@@ -10,7 +10,7 @@ colors:
   link-color: '#98b6b6'
   hover-link-color: '#ccc0d8'
   exit-color: '#2f3031'
-  exit-hover-color: '#ffffff'
+  exit-hover-color: '#ccc0d8'
 border-radius:
   top-left-corner: 0%
   top-right-corner: 0%
