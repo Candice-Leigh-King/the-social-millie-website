@@ -20,9 +20,9 @@ fonts:
   link-font: Shrikhand, cursive;
 social-link-colors:
   icon-color: '#859f9f'
-  background-color: '#ffffff'
-  border-color: '#d2966d'
-  icon-hover-color: '#d2966d'
+  background-color: '#f2f1f7'
+  border-color: '#f2f1f7'
+  icon-hover-color: '#ccc0d8'
 icons-border-radius:
   top-left-corner: 100px
   top-right-corner: 0px
