@@ -3,7 +3,7 @@ textarea_html: >-
   href="/#reviews">review</a></p><p><a href="/#gallery">gallery</a></p><p><a
   href="/#contact">contact</a></p>
 colors:
-  hamburger-color: '#ffffff'
+  hamburger-color: '#98b6b6'
   background-color: '#fff8e7'
   textarea-background-color: '#fff8e7'
   border-color: '#fff8e7'
