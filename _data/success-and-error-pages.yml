@@ -1,7 +1,7 @@
 colors:
-  background-color: '#bccaca'
-  heading-color: '#FFFFFF'
+  background-color: '#ffffff'
+  heading-color: '#98b6b6'
   text-color: '#2f3031'
 fonts:
-  heading-font: Shrikhand, cursive
-  text-font:  Raleway, sans-serif
+  heading-font: Dream Avenue
+  text-font: Raleway, sans-serif
