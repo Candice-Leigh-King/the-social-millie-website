@@ -106,7 +106,7 @@ _array_structures:
             background-image:
           right:
             subheading:
-            textarea:
+            textarea_html:
             background-image: 
             button: 
             button-link:
@@ -148,13 +148,13 @@ _array_structures:
           _section-type: zuko-hover-block
           left:
             subheading:
-            textarea:
+            textarea_html:
             background-image: 
             button:
             button-link: 
           right:
             subheading: 
-            textarea:
+            textarea_html:
             background-image:
             button: 
             button-link: 
