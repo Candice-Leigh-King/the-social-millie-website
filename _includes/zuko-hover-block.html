@@ -154,9 +154,11 @@
           <div class="hover-image border-hover-image " style="background-image:url('{{item.left.background-image}}'); ">
             <div class="hover-overlay hover-text-color ">
               <div class="hover-inner">
-                <h3 class=" subheading-font"> {{item.left.subheading}} </h3>
-                <p class="textarea-font padded"> {{item.left.textarea_html}} </p>
-                  <a href="{{item.left.button-link}}" class=" button-color"> <b>{{item.left.button}}</b></a> 
+                <h3 class=" subheading-font center"> {{item.left.subheading}} </h3>
+                <div class="textarea-font padded"> {{item.left.textarea_html}} </div>
+                 <div class ="center">
+                  <a href="{{item.left.button-link}}" class=" button-color center"> <b>{{item.left.button}}</b></a> 
+                  </div>
               </div>
             </div>
           </div> 
@@ -166,8 +168,8 @@
         <div class="hover-container-mobile padded">
           <div class="hover-image border-mob" style="background-image:url('{{item.left.background-image}}'); ">
             <div class="container-color grid-middle">
-              <h3 class="col-12 subheading-font subheading-color padded"> {{item.left.subheading}}  
-                <p class="col-12 subheading-font subheading-color padded centered read-more-button" data-target="read-more-section-1-{{forloop.index0}}">Read <span></span>
+              <h3 class="col-12 subheading-font subheading-color center padded"> {{item.left.subheading}}  
+                <p class="col-12 subheading-font subheading-color padded center read-more-button" data-target="read-more-section-1-{{forloop.index0}}">Read <span></span>
                 </p>
               </h3>
             </div>
@@ -175,9 +177,11 @@
         </div>
       </div>
       <div class="col-12 hover-container-mobile padded desktop-hide" >
-        <p class="hidden on-mobile-text-color textarea-font read-more-section" id="read-more-section-1-{{forloop.index0}}" data-section="read-more-section-1-{{forloop.index0}}"> {{item.left.textarea_html}}<br>
+        <div class="hidden on-mobile-text-color textarea-font read-more-section" id="read-more-section-1-{{forloop.index0}}" data-section="read-more-section-1-{{forloop.index0}}"> {{item.left.textarea_html}}<br>
+         <div class ="center">
           <a href="{{item.left.button-link}}" class=" button-color link-background-color"> <b>{{item.left.button}}</b></a>
-        </p>
+          </div
+        </div>
       </div>
       
         <div class="col-6_sm-12 mob-hide ">
