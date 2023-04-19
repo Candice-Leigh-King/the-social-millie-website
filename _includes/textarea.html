@@ -5,7 +5,11 @@
 
   #content-blocks-{{forloop.index0}} .textarea-color a:hover {color: {{item.colors.link-hover-color}};}
 
-  #content-blocks-{{forloop.index0}} .textarea-color {color: {{item.colors.textarea-color}};}
+  #content-blocks-{{forloop.index0}} .textarea-color 
+    {
+    color: {{item.colors.textarea-color}};
+    background-color: {{item.colors.textarea-background-color}};
+    }
 
   #content-blocks-{{forloop.index0}} .textarea-font {font-family: {{item.fonts.textarea-font}};}
 
