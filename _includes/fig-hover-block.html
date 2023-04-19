@@ -138,7 +138,7 @@
       <div class="hover-container-mobile padded">
         <div class="hover-image radius border-mob" style="background-image:url('{{item.right.background-image}}'); ">
           <div class="container-color radius grid-middle">
-            <h3 class="col-12 subheading-font subheading-color padded"> {{item.right.subheading}}  
+            <h3 class="col-12 subheading-font subheading-color padded center"> {{item.right.subheading}}  
               <p class="col-12 padded textarea-font centered read-more-button" data-target="read-more-section-2-{{forloop.index0}}"> Read <span></span>
               </p>
             </h3>
@@ -147,9 +147,9 @@
       </div>
     </div>
     <div id="read-more" class=" col-12 hover-container-mobile padded desktop-hide" >
-      <p class="hidden on-mobile-text-color  read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}">{{item.right.textarea_html}}<br>
+      <div class="hidden on-mobile-text-color  read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}">{{item.right.textarea_html}}<br>
         <a href="{{item.right.button-link}}" class="button-color link-background-color"> <b>{{item.right.button}}</b></a>
-      </p>
+      </div>
     </div>
   </div>    
 </section>
