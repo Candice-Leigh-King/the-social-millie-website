@@ -189,9 +189,11 @@
             <div class="hover-image" style="background-color: {{item.colors.overlay-color}}; border: none">
               <div class="hover-overlay hover-text-color ">
                 <div class="hover-inner">
-                  <h3 class="subheading-font"> {{item.right.subheading}} </h3>
-                  <p class=" textarea-font padded"> {{item.right.textarea_html}}</p> 
+                  <h3 class="subheading-font center"> {{item.right.subheading}} </h3>
+                  <div class=" textarea-font padded"> {{item.right.textarea_html}}</div>
+                   <div class ="center">
                     <a href="{{item.right.button-link}}" class=" button-color "> <b>{{item.right.button}}</b></a>
+                    </div>
                 </div>
               </div>
             </div> 
@@ -201,7 +203,7 @@
           <div class="hover-container-mobile">
             <div class="hover-image" style="background-image:url('{{item.right.background-image}}'); ">
               <div class="container-color grid-middle">
-                <h3 class="col-12 subheading-font subheading-color padded"> {{item.right.subheading}}  
+                <h3 class="col-12 subheading-font subheading-color padded center"> {{item.right.subheading}}  
                   <p class="col-12 subheading-font subheading-color padded centered read-more-button" data-target="read-more-section-2-{{forloop.index0}}">Read <span></span>
                   </p>
                 </h3>
@@ -210,9 +212,11 @@
           </div>
         </div>
         <div class="col-12 hover-container-mobile padded desktop-hide" >
-          <p class="hidden on-mobile-text-color textarea-font read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}"> {{item.right.textarea_html}}<br>
+          <div class="hidden on-mobile-text-color textarea-font read-more-section" id="read-more-section-2-{{forloop.index0}}" data-section="read-more-section-2-{{forloop.index0}}"> {{item.right.textarea_html}}<br>
+           <div class ="center">
             <a href="{{item.right.button-link}}" class=" button-color link-background-color"> <b>{{item.right.button}}</b></a>
-          </p>
+            </div>
+          </div>
           
         </div>
       </div>
