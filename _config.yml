@@ -142,6 +142,7 @@ _array_structures:
             background-color:
             border-color: 
             heading-color:
+            link-hover-color:
             hover-text-color:
             hover-overlay-color:
             button-background-color:
